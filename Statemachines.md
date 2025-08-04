@@ -12,8 +12,8 @@ var state_machine = $state_machine
 # This references the state machine node 
 
 func _ready() -> void:
-	# Initialize the state machine, passing a reference of the player to the states,
-	# that way they can move and react accordingly
+	///Initialize the state machine, passing a reference of the player to the states,
+	//that way they can move and react accordingly
 	state_machine.init(self)
 #This initializes the state macine and passes the player node instance to it. In order for the statemachine to control the player
 
